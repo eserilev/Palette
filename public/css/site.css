@@ -1,0 +1,49 @@
+.logo {
+	max-height:120px;
+	max-width: 120px;
+}
+
+.nav-text >li > a {
+	color:white;
+}
+
+.palette-text {
+	text-align: center; 
+	width: 100%; 
+	margin-bottom:150px;	
+	margin-top: 150px; 
+}
+
+.large-div{
+	height:1000px;
+}
+.palette1{
+	background-color: #d3bba7;
+
+}
+
+.palette2{
+	background-color: #e8d4c5;
+}
+
+.palette3{
+	background-color: #ead7c7;
+}
+
+.palette4{
+	background-color: #efd9c6;
+}
+
+.palette5{
+	background-color: #f7d9c0;
+}
+
+.parallax {
+	background-color: #d3bba7;
+	height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+

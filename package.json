@@ -1,0 +1,19 @@
+{
+  "name": "palette",
+  "version": "1.0.0",
+  "description": "Palette landing page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "palette"
+  ],
+  "author": "Eitan Seri-Levi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "hbs": "^4.0.1"
+  }
+}
