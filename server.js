@@ -26,11 +26,13 @@ hbs.registerHelper('getCurrentYear', () => {
 	return new Date().getFullYear();
 })
 
-
-
 app.get('/', (req,res) => {
 	res.render('home.hbs', {
-		text1: "Creative Direction + Branding + Design + Artist Development + Project Management"
+		text1: "CREATIVE DIRECTION",
+		text2: "BRANDING",
+		text3: "DESIGN",
+		text4: "ARTIST DEVELOPMENT",
+		text5: "PROJECT MANAGEMENT"
 	});
 });
 
@@ -40,7 +42,11 @@ app.get('/debug', (req,res) => {
 
 app.get('/home', (req,res) => {
 	res.render('home.hbs', {
-		text1: "Creative Direction + Branding + Design + Artist Development + Project Management"
+		text1: "CREATIVE DIRECTION",
+		text2: "BRANDING",
+		text3: "DESIGN",
+		text4: "ARTIST DEVELOPMENT",
+		text5: "PROJECT MANAGEMENT"
 	});
 });
 
@@ -57,8 +63,7 @@ app.get('/shop', (req,res) => {
 });
 
 app.get('/contact', (req,res) => {
-	res.render('home.hbs', {
-		text1: "For enlisting the agency's services, internship inquiries, and other questions, send us an email: hello@paletteagency.co"
+	res.render('contact.hbs', {
 	});
 });
 
