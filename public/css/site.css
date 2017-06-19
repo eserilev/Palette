@@ -38,6 +38,17 @@ html>body .content {
 	color: 	#808080;
 }
 
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img{
+	max-height:500px;
+}
+
 .full-screen{
 	position: absolute;
 	top: 0;
