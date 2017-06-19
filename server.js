@@ -51,15 +51,15 @@ app.get('/home', (req,res) => {
 });
 
 app.get('/portfolio', (req,res) => {
-	res.render('home.hbs');
+	res.render('portfolio.hbs');
 });
 
 app.get('/sound', (req,res) => {
-	res.render('home.hbs');
+	res.render('sound.hbs');
 });
 
 app.get('/shop', (req,res) => {
-	res.render('home.hbs');
+	res.render('shop.hbs');
 });
 
 app.get('/contact', (req,res) => {
