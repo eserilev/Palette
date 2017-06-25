@@ -100,14 +100,23 @@ img{
   padding-left: 1.2em;
 }
 
-.container ul li {
+.home-content li {
+	margin-right: 2%;
 	display: inline;
 }
 
 @media (max-width: 600) {
 
-      .container ul li {
-      	display: list-item;
+      .home-content li {
+      	list-style: none;
+      	margin-top: 2%;
+		font-size: 2em;
+		margin-right: 0%;
+
+      }
+
+      .content ul li {
+      	font-size: 2em;
       }
 
 }
