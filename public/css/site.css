@@ -105,13 +105,14 @@ img{
 	display: inline;
 }
 
-@media (max-width: 600) {
+@media (max-width: 500px) {
 
       .home-content li {
       	list-style: none;
       	margin-top: 2%;
 		font-size: 2em;
 		margin-right: 0%;
+		display: list-item;
 
       }
 
