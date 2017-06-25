@@ -94,3 +94,8 @@ img{
 	background-size: cover;
 }
 
+
+.container {
+  padding-right: 1.2em;
+  padding-left: 1.2em;
+}
