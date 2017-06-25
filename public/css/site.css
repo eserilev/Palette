@@ -1,6 +1,6 @@
 .logo {
-	max-height:120px;
-	max-width: 120px;
+	max-height:8em;
+	max-width: 8em;
 }
 
 .nav-text >li > a {
@@ -13,6 +13,7 @@
 
 .palette-font {
 	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
 }
 
   html,body {
@@ -32,7 +33,7 @@ html>body .content {
 
 .palette-text {
 	padding-top:15%;
-	font-size: 40px;
+	font-size: 1.5em;
 	text-align: center;	
 	font-family: 'Montserrat', sans-serif;
 	color: 	#808080;
@@ -46,7 +47,7 @@ html>body .content {
 }
 
 img{
-	max-height:500px;
+	max-height:30em;
 }
 
 .full-screen{
