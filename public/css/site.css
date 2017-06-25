@@ -99,3 +99,15 @@ img{
   padding-right: 1.2em;
   padding-left: 1.2em;
 }
+
+.container ul li {
+	display: inline;
+}
+
+@media (max-width: 600) {
+
+      .container ul li {
+      	display: list-item;
+      }
+
+}
