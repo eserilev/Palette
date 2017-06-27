@@ -3,6 +3,12 @@
 	max-width: 8em;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 .nav-text >li > a {
 	color:white;
 }
@@ -39,6 +45,12 @@ html>body .content {
 	color: 	#808080;
 }
 
+#portfolio div
+{
+	top:50%;
+}
+
+
 .center-content {
   position: absolute;
   top: 50%;
@@ -62,25 +74,25 @@ img{
 	position: relative;
 }
 
-#palette1{
+.palette1{
 	background-color: #d3bba7;
 }
 
-#palette2{
+.palette2{
 	background-color: #e8d4c5;
 }
 
-#palette3{
+.palette3{
 
 	background-color: #ead7c7;
 }
 
-#palette4{
+.palette4{
 
 	background-color: #efd9c6;
 }
 
-#palette5{
+.palette5{
 	background-color: #f7d9c0;
 }
 

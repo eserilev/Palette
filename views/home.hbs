@@ -2,7 +2,7 @@
 <html>
 {{> navbar}}
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <div class="content" id="palette1">
+  <div class="content palette1" id="home">
       <div class="container palette-text">
         <ul class="home-content">
             <li>{{text1}} </li>
@@ -14,16 +14,27 @@
       </div>
 
   </div>
-  <div class="content" id="palette2">
+  <div class="content palette2" id="portfolio">
+    {{> portfolio}}
+  </div>
+  <div class="content palette3" id="sound">
         
   </div>
-  <div class="content" id="palette3">
+  <div class="content palette4" id="shop">
         
   </div>
-  <div class="content" id="palette4">
-        
-  </div>
-  <div class="content" id="palette5">
+  <div class="content palette5" id="contact">
+      <div class="container palette-text">
+        <p>For enlisting the agency's services, internship inquiries, and other questions, send us an email: 
+        <a href="mailto:hello@paletteagency.com" target="_top">hello@paletteagency.co</a>
+        </p>
+        <div class="contact-icons">
+           <a href="https://www.instagram.com/paletteagency"><img alt="Instagram"  class="logo" src="/images/Icons/instagram.png"></a>
+           <a href="https://www.facebook.com/paletteagency"><img alt="Facebook" class="logo" src="/images/Icons/facebook.png"></a>
+           <a href="https://www.twitter.com/paletteagency"><img alt="Twitter" class="logo" src="/images/Icons/twitter.png"></a>
+           <a href="https://www.soundcloud.com/paletteagency"><img alt="Soundcloud" class="logo" src="/images/Icons/soundcloud.png"></a>
+        </div>
+      </div> 
         
   </div>
 </body>
